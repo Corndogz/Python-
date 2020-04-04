@@ -1,3 +1,5 @@
+#COMPUND CALCULATOR
+
 def compound_interest(principle, rate, time):
     result = principle * (pow((1 + rate / 100), time))
     return result
